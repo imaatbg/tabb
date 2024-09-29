@@ -15,7 +15,7 @@ jobs:
 
       - name: Download New CSV
         run: |
-          if curl -o data/new-data.csv https://raw.githubusercontent.com/imaatbg/tabb/master/tabb.csv; then
+          if curl -o data/new-data.csv https://raw.githubusercontent.com/imaatbg/tabb/master/tabb.csv ; then
             echo "CSV download successful."
           else
             echo "CSV download failed."
